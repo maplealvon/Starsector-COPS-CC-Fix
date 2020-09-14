@@ -20,7 +20,7 @@ public class CHM_COPS extends BaseHullMod
     }
 	
 	@Override
-    public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
+    	public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
         stats.getSensorProfile().modifyMult(id, 0.9f);
         stats.getFuelUseMod().modifyMult(id, 0.9f);
         stats.getSuppliesPerMonth().modifyMult(id, 0.9f);
