@@ -1,6 +1,10 @@
-Compatible with COPS v2.0b, Starsector v0.9.1a
+# Starsector-COPS-CC-Fix
+Fixes COPS commissioned crew to work in both commissioned and allied states.
+Compatible with COPS v2.0b, Starsector v0.9.1a.
 
-Merge with COPS mod install to apply fix, will override and add some files.
+## Install
+Install COPS and then extract fix files into COPS mod folder.
 
-Works by adding a CC hullmod that functions just the same as the original but doesn't check for commission status for non-commission removal. 
-Instead it checks for presence of the original and removes that instead to prevent doubling up.
+## How it works
+Original COPS CC checks for commissioned status and self-removes if not commissioned, so it only works under COPS commission and not alliance.
+Fix adds a CC hullmod that provides the same stats but does not self-remove. Instead, it checks for COPS commission and removes the original CC hullmod.
