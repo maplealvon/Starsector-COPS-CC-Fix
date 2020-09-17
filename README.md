@@ -1,5 +1,6 @@
 # Starsector-COPS-CC-Fix
 Fixes COPS commissioned crew to work in both commissioned and allied states.
+Removes Rhodan as the ship causes CTD in combat.
 Compatible with COPS v2.0b, Starsector v0.9.1a.
 
 ## Install
